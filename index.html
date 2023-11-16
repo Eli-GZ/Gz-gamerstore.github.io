@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ENCUESTA GZ-GAMERSTORE</title>
+  <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body class="capa">
+  
+  <header>
+    <img src="./img/logo.png" alt="">
+  </header>
+  <p id="description">ENCUESTA GZ-GAMERSTORE <br>Gracias por ayudarnos a mejorar la plataforma.</p>
+
+<form id="survey-form">
+
+    <fieldset>
+      <label id="name-label" for="name">Nombre:
+        <input id="name" type="text" placeholder="Ingresa tu nombre" required/>          
+      </label>
+
+      <label id="email-label" for="email"> Email:
+        <input id="email" type="email" placeholder="Ingresa tu Email" required/>         
+      </label>
+    
+      <label id="number-label" for="number"> Edad:
+        <input id="number" type="number" min="13" max="120"placeholder="Edad" required/>          
+      </label>
+    </fieldset>
+
+    <fieldset>
+    <label id="dropdown-label" for="text">¿Donde escuchaste de nosotros?
+    </label>
+    <select id="dropdown">
+      <option value="">Selecciona uno</option>
+      <option value="1">Youtube</option>
+      <option value="2">Facebook</option>
+      <option value="3">Instagram</option>
+      <option value="4">Otros</option>    
+    </select>
+   </fieldset>
+   <fieldset>
+    <label class="recomendacion">¿Recomendarias este sitio a un amigo?</label>      
+      <label for="recomendacion"><input id="recomendacion" type="radio" name="recomendacion" value="radio" class="linea" checked /> Definitivamente</label>
+      <label for="recomendacion"><input id="recomendacion" type="radio" name="recomendacion" value="radio" class="linea" />Tal vez</label>
+      <label for="recomendacion">
+        <input id="recomendacion" type="radio" name="recomendacion" value="radio" class="linea"/>
+        No estoy seguro
+      </label>
+  </fieldset>
+  <fieldset>
+
+
+    <label>¿Cual es el articulo que te llamo mas la atención?</label>
+    
+    <label for="articulos">
+      <input id="articulos" type="checkbox" required name="articulo" value="articulo"class="linea"/>Placas de videos
+      </label>
+      <label for="articulos">
+      <input id="articulos" type="checkbox" required name="articulo" value="articulo" class="linea"/>Procesadores
+    </label>
+    <label for="articulos">
+      <input id="articulos" type="checkbox" required name="articulo" value="articulo" class="linea"/>Gabinetes
+    </label>
+    <label for="articulos">
+      <input id="articulos" type="checkbox" required name="articulo" value="articulo" class="linea"/>Notebooks
+    </label>
+<label for="articulos">
+      <input id="articulos" type="checkbox" required name="articulo" value="articulo" class="linea"/>otros
+    </label>
+    </fieldset>
+    <fieldset>
+    <label for="area-articulo">¿Cual articulo te intereso mas?
+        <textarea id="area-articulo" name="area-articulo" rows="5" cols="30" placeholder="Comentarios.."></textarea>
+      </label>
+    </fieldset>
+    <input id="submit" class="submit" type="submit" value="Enviar"/>
+    
+  </form>
+</body>
+</html>

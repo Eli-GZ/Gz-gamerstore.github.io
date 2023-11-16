@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;  
+ background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(9,9,121,0.5) 35%, rgba(255,0,0,0.5) 100%), url(https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment: fixed;  
+  color: #f5f6f7;
+  font-family: sans-serif;
+  font-size: 20px;  
+  }
+
+header{
+  text-align: center;
+ ;
+  padding: 0;
+
+
+}
+img{
+  width: 900px;
+}
+p {
+  margin: 1em auto;
+  text-align: center;
+  color:white;
+}
+
+#survey-form{  
+  background:rgba(0,0,0,0.8);  
+}
+
+form{
+  
+  border-radius:10px;
+  width: 60vw;
+  max-width: 800px;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+fieldset {  
+  border: none;
+  padding: 1rem 0;
+  margin-top:0; 
+  margin-left:70px; 
+  margin-right:70px;
+  margin-bottom:0;  
+  border-bottom: 3px solid rgba(255,0,0,0.5);
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin:1rem 0;
+}
+#name-label{
+  display:block;
+}
+#number-label{
+  display:block;
+}
+#email-label{
+  display:block;
+}
+#dropdown-label{
+  margin:0;
+}
+
+input, select,textarea{
+  margin: 5px 0 0 0;
+  max-width:800px;
+  width: 100%;
+  min-height: 3em;  
+}
+
+input, textarea {
+  display:block;
+  background-color:  black;
+  border: 1px solid black;
+  color: #ffffff;
+}
+#recomendacion{  
+  margin:0 10px 0 0; 
+}
+
+textarea{
+  margin-top:20px;
+  font-size:18px;
+}
+#articulos{
+  margin:0 10px 0 0;
+}
+
+.linea {
+  display:inline-block;
+  width: unset;
+  margin: 0 0 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: rgba(255,0,0,0.5);
+  border-color: white;
+  min-width: 300px;
+}
+#dropdown{
+  background-color:black;
+  color:white;
+  border-color:white;
+}
+#number::placeholder{
+  color:white;
+}
+#email::placeholder {
+  color:white;
+}
+#name::placeholder {
+  color:white;
+}
+#area-articulo::placeholder {
+  color:white;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}

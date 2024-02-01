@@ -14,13 +14,14 @@ body {
 
 header{
   text-align: center;
- ;
   padding: 0;
-
-
 }
+
 img{
-  width: 900px;
+  margin: 0 auto;
+  width: 500px;
+  border-radius: 50%;
+  box-shadow:1px 1px 21px 1px #ffffff;
 }
 p {
   margin: 1em auto;
